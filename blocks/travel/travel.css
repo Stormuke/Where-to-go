@@ -1,0 +1,4 @@
+.travel {
+  display: flex;
+  flex-direction: column;
+}

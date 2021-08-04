@@ -1,0 +1,20 @@
+.travel__container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1024px) {
+  .travel__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .travel__container {
+    flex-direction: row;
+  }
+
+  .travel__container:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+}

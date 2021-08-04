@@ -1,0 +1,6 @@
+.travel__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  max-width: 67%;
+}
