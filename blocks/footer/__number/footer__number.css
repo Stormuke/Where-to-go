@@ -1,6 +1,6 @@
 .footer__number {
-  font-family: 'Inter', 'Arial', sans-serif;
-  font-weight: 900;
-  font-size: 38px;
-  margin: 0;
+  font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    word-spacing: 3px;
 }
