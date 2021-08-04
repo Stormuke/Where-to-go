@@ -1,7 +1,20 @@
 .people__subtitle {
   font-size: 38px;
   font-weight: 600;
-  margin: 32px 0 130px;
-  max-width: 36%;
   line-height: 49px;
+}
+
+@media screen and (max-width: 768px) {
+  .people__subtitle {
+    max-width: 80%;
+    text-align: center;
+    margin: 32px auto 135px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .people__subtitle {
+    max-width: 36%;
+    margin: 32px 0 135px;
+  }
 }

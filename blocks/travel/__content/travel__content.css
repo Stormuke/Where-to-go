@@ -1,8 +1,19 @@
 .travel__content {
-  width: 50%;
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
   padding: 70px 0 90px;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .travel__content {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .travel__content {
+    width: 50%;
+  }
 }

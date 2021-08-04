@@ -1,7 +1,19 @@
 .people__title {
-  margin: 0;
   color: #fecea9;
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .people__title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .people__title {
+    text-align: start;
+  }
 }
