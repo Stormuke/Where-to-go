@@ -1,4 +1,6 @@
 .intro__image {
-  width: 400px;
-  height: 400px;
+  width: 33.8%;
+  padding-bottom: 33.9%;
+  background: center center url("../../../images/intro-image.jpeg");
+  background-size: cover;
 }
