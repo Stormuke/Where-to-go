@@ -1,8 +1,8 @@
 .intro__title {
-  font-weight: 900;
-  font-size: 15px;
+  font-weight: 600;
   text-transform: uppercase;
-  font-size: 14px;
+  word-spacing: 3px;
+  font-size: 13px;
   color: #fecea9;
   margin: 0;
 }
