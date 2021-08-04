@@ -1,6 +1,7 @@
 .travel__texts {
   display: flex;
   flex-direction: column;
-  gap: 13px;
-  max-width: 67%;
+  gap: 20px;
+  max-width: 69%;
+  font-weight: 900;
 }
