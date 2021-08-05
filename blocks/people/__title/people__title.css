@@ -1,19 +1,16 @@
 .people__title {
   color: #fecea9;
-  font-size: 14px;
+  font-family: 'Ubuntu', 'Arial', sans-serif;
+  font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
   margin: 0;
+  padding-top: 4px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .people__title {
     text-align: center;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .people__title {
-    text-align: start;
-  }
-}

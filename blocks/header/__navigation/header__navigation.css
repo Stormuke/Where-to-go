@@ -3,3 +3,10 @@
   margin: 0;
   gap: 41px;
 }
+
+@media screen and (max-width: 767px) {
+  .header__navigation {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

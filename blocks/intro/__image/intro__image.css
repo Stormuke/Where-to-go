@@ -4,3 +4,10 @@
   background: center center url("../../../images/intro-image.jpeg");
   background-size: cover;
 }
+
+@media screen and (max-width: 767px) {
+  .intro__image {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}

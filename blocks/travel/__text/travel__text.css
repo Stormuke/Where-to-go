@@ -1,6 +1,7 @@
 .travel__text {
-  padding-left: 16.2%;
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 23px;
+  word-spacing: 2px;
   margin: 0;
 }

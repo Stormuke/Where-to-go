@@ -3,18 +3,15 @@
   flex-direction: row;
 }
 
-@media screen and (max-width: 768px) {
+.travel__container:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 767px) {
   .travel__container {
     flex-direction: column;
   }
-}
-
-@media screen and (min-width: 768px) {
-  .travel__container {
-    flex-direction: row;
-  }
-
   .travel__container:nth-child(2n) {
-    flex-direction: row-reverse;
+    flex-direction: column;
   }
 }

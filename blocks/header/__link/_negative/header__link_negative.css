@@ -1,0 +1,8 @@
+.header__link_negative {
+  transition: text-shadow .5s;
+}
+
+.header__link_negative:hover {
+  text-shadow: 1px 1px 0 rgba(255, 60, 60, .6);
+  transition: text-shadow .3s;
+}

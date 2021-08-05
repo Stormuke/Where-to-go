@@ -3,3 +3,9 @@
   flex-direction: column;
   padding-bottom: 152px;
 }
+
+@media screen and (max-width: 1023px) {
+  .travel {
+    padding-bottom: 95px;
+  }
+}

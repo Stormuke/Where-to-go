@@ -1,20 +1,15 @@
 .cards {
   padding: 0;
+  margin: 0;
   display: flex;
   gap: 80px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cards {
     flex-direction: column;
     margin: 0 auto;
     align-items: center;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .cards {
-    flex-direction: row;
-    margin: 0;
+    gap: 40px;
   }
 }

@@ -2,19 +2,17 @@
   font-size: 38px;
   font-weight: 600;
   line-height: 49px;
+  max-width: 36%;
+  margin: 32px 0 135px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .people__subtitle {
+    font-size: 28px;
+    line-height: 1.2;
     max-width: 80%;
     text-align: center;
-    margin: 32px auto 135px;
+    margin: 20px auto 80px;
   }
 }
 
-@media screen and (min-width: 768px) {
-  .people__subtitle {
-    max-width: 36%;
-    margin: 32px 0 135px;
-  }
-}

@@ -3,4 +3,24 @@
   font-size: 14px;
   text-decoration: none;
   color: #000;
+  text-align: center;
+  transition: opacity .5s, text-shadow .5s;
+}
+
+.header__link:hover {
+  opacity: .8;
+  text-shadow: 2px 2px 0 #fecda7;
+  transition: opacity .3s, text-shadow .3s;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__link {
+    font-size: 24px;
+  }
 }

@@ -1,6 +1,12 @@
 .footer__number {
   font-weight: 700;
-    font-size: 36px;
-    margin: 0;
-    word-spacing: 3px;
+  font-size: 36px;
+  margin: 0;
+  word-spacing: 3px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__number {
+    font-size: 26px;
+  }
 }

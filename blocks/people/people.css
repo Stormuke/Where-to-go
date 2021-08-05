@@ -3,3 +3,15 @@
   margin: 0 auto;
   padding-bottom: 144px;
 }
+
+@media screen and (max-width: 1023px) {
+  .people {
+    padding-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .people {
+    padding-bottom: 60px;
+  }
+}

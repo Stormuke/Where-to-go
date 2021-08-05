@@ -1,8 +1,23 @@
 .intro {
   max-width: 82.2%;
   margin: 0 auto;
-  padding-right: 98px;
+  padding-right: 6.7%;
+  padding-bottom: 147px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 147px;
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding-bottom: 95px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    flex-direction: column;
+    padding-right: 0;
+    padding-bottom: 60px;
+    gap: 10px;
+  }
 }
