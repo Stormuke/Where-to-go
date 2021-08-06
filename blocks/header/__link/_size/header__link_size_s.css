@@ -1,0 +1,5 @@
+@media screen and (max-width: 767px) {
+  .header__link_size_s {
+    font-size: 12px;
+  }
+}

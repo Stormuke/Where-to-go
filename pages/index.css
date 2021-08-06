@@ -9,7 +9,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__navigation/header__navigation.css');
 @import url('../blocks/header/__link/header__link.css');
-@import url('../blocks/header/__link/_negative/header__link_negative.css');
+@import url('../blocks/header/__link/_size/header__link_size_s.css');
 
 /*intro block*/
 @import url('../blocks/intro/intro.css');

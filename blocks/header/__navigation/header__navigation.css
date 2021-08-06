@@ -8,5 +8,6 @@
   .header__navigation {
     flex-direction: column;
     gap: 10px;
+    align-items: flex-start;
   }
 }
