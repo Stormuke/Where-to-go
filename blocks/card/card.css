@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  gap: 28px;
+  gap: 26px;
 }
 
 @media screen and (max-width: 767px) {

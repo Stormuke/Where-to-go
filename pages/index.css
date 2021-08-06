@@ -26,6 +26,7 @@
 @import url('../blocks/travel/__text/travel__text.css');
 @import url('../blocks/travel/__title/travel__title.css');
 @import url('../blocks/travel/__content/travel__content.css');
+@import url('../blocks/travel/__content/_size/travel__content_size_l.css');
 @import url('../blocks/travel/__container/travel__container.css');
 
 /*people block*/

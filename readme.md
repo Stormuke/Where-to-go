@@ -6,5 +6,5 @@ https://stormuke.github.io/where-to-go/
 2. Проект включает в себя:
   * flexbox
   * BEM
-  * BEM Nested(_file structure and class names_)
+  * BEM Nested(_file structure_)
   * Adaptivity and responsive
